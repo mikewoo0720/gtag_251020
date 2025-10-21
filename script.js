@@ -9,5 +9,7 @@ const handleSearch = () => {
     });
 
     alert(`검색어 ${input}에 대한 검색을 실행했습니다.`);
+  } else {
+    alert("검색어를 입력해주세요.");
   }
 };
